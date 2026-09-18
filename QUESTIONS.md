@@ -15,16 +15,21 @@ revision.
 branch name you plan to use.**
 
 > Your answer here.
+ It uses <type>/<short-description> Ex. Docs/Ammar's_Doc
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
 > Your answer here.
+ <type>[scope]:<description>
+[body] optional
+[footer] optional
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
 > Your answer here.
+ It expects a linked issue
 
 ---
 
@@ -43,7 +48,9 @@ is `origin` and which is `upstream`, and why does that distinction matter?**
 follow the convention from `CONTRIBUTING.md`?**
 
 > Your answer here.
-
+fb919a5 (HEAD -> main) docs[CONTRIBUTERS.md]:added name and fun fact
+3b30f00 (origin/main, origin/HEAD) Clarify task labeling in README
+f5ecf54 Revise task assignment instructions in README
 ---
 
 ## Part 4 — After hitting the seeded merge conflict
